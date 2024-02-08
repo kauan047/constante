@@ -13,8 +13,8 @@ $num = 7.3;
 echo ceil($num);
 echo floor($num);
 echo round($num);
-echo rand();
-getrandmax();
+echo rand(10, 20);
+echo '<br />' .getrandmax();
 
 ?>
 
