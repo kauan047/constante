@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+    
 
     $lista_frutas = ['Banana', 'Maçã', 'Morango', 'Uva'];
 
@@ -32,11 +33,10 @@
     print_r($lista_coisas);
     echo '</pre>';
 
-   echo in_array('Melancia', $lista_coisas['frutas'])
+   echo in_array('Melancia', $lista_coisas['frutas']);
 
     
 
     ?>
     
 </body>
-</html>
